@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoEntornos_UD7
 {
-    public partial class Form1 : Form
+    public partial class FormVentana : Form
     {
-        public Form1()
+        public FormVentana()
         {
             InitializeComponent();
         }

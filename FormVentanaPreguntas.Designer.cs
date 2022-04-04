@@ -1,7 +1,7 @@
 ﻿
 namespace ProyectoEntornos_UD7
 {
-    partial class Form1
+    partial class FormVentana
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,10 +29,17 @@ namespace ProyectoEntornos_UD7
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FormVentana
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "FormVentana";
+            this.Text = "Ventana Preguntas";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
